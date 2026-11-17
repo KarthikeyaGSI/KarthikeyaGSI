@@ -1,77 +1,96 @@
-# Karthikeya Thallapally
+<h1 align="left">Karthikeya Thallapally</h1>
 
-**Founder | AI Engineer | Automation Builder | Open Source Developer**
+<p align="left">
+  <strong>Founder</strong> at <a href="https://marketingko.in/"><strong>MarketingKo</strong></a> &bull; Building <a href="https://sancharya.marketingko.in/"><strong>SancharyaAI</strong></a><br/>
+  <em>AI systems, voice telephony, automation infrastructure, and full-stack software.</em>
+</p>
 
-I build AI-powered products, automation systems, and software that solve real business problems. Currently building **[MarketingKo](https://marketingko.in/)** and **[SancharyaAI](https://sancharya.marketingko.in/)**.
+<p align="left">
+  <a href="https://twitter.com/thekarthgsi"><img src="https://img.shields.io/badge/X-@thekarthgsi-000000?style=flat-square&logo=x&logoColor=white" alt="Twitter" /></a>
+  <a href="https://marketingko.in/"><img src="https://img.shields.io/badge/Web-marketingko.in-111111?style=flat-square&logo=safari&logoColor=white" alt="Website" /></a>
+  <a href="https://sancharya.marketingko.in/"><img src="https://img.shields.io/badge/Voice_AI-SancharyaAI-111111?style=flat-square" alt="SancharyaAI" /></a>
+  <a href="https://github.com/KarthikeyaGSI"><img src="https://img.shields.io/badge/GitHub-KarthikeyaGSI-24292e?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
 ---
 
 ### What I'm Building
 
-- **[MarketingKo](https://marketingko.in/)** — Growth and marketing automation infrastructure helping D2C brands eliminate repetitive operational overhead and drive conversion velocity.
-- **[SancharyaAI](https://sancharya.marketingko.in/)** — Next-generation autonomous AI voice agent platform enabling conversational voice intelligence, real-time telephony workflows, and sub-second acoustic turn-taking.
-- **AI Automation & Ad Intelligence** — Engineering scalable intelligence pipelines that synthesize Meta advertising analytics, predictive creative insights, and agentic outreach workflows.
+Most automation tools solve toy problems. I build software that eliminates operational friction and drives actual business conversion:
+
+- **[MarketingKo](https://marketingko.in/)** — Growth and marketing automation infrastructure for direct-to-consumer (D2C) brands. We replace fragmented, manual marketing operations with automated creative auditing, ad intelligence, and high-velocity conversion workflows.
+- **[SancharyaAI](https://sancharya.marketingko.in/)** — Next-generation autonomous AI voice agent platform. Engineered for real-time telephony, sub-second acoustic turn-taking, and conversational voice agents that execute complex business logic naturally.
 
 ---
 
-### Technical Capabilities
+### Engineering & Systems Architecture
 
-| Domain | Core Stack & Tooling |
-| :--- | :--- |
-| **AI & Voice Engineering** | Vercel AI SDK, OpenAI, Faster-Whisper, Speech-to-Text (STT), Text-to-Speech (TTS), Local SLMs, LangGraph, RAG Pipelines |
-| **Frontend Architecture** | React 19, Next.js 14/15 (App Router, ISR, Server Components), TypeScript, Tailwind CSS, GSAP, Framer Motion |
-| **Backend & Distributed Systems** | Node.js, Express, Python 3.9+, Appwrite, Prisma ORM, Supabase, Dexie.js (IndexedDB), REST APIs, Webhooks |
-| **Data & Infrastructure** | MongoDB, PostgreSQL, Upstash Redis (Rate Limiting & Caching), Sentry, Headless Chromium / Puppeteer |
-| **Automation & Tooling** | n8n Workflows, Model Context Protocol (MCP), Agent Swarms, Claude Code / Antigravity Harnesses, Git |
+```
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│                                 TECHNICAL STACK                                  │
+├─────────────────────────┬──────────────────────────┬─────────────────────────────┤
+│ Voice & AI Engineering  │ Frontend & Creative Web  │ Distributed Backend & Data  │
+│ ─────────────────────── │ ──────────────────────── │ ─────────────────────────── │
+│ Faster-Whisper · STT    │ Next.js 15 (App Router)  │ Node.js · Express · Python  │
+│ Local SLMs (Phi-3)      │ TypeScript · React 19    │ Prisma ORM · MongoDB        │
+│ Vercel AI SDK · OpenAI  │ GSAP Timelines · Motion  │ Appwrite · Supabase (RLS)   │
+│ Telephony & Audio Blobs │ Three.js · WebGL Spatial │ Upstash Redis Rate Limiting │
+│ Autonomous Loops & RAG  │ Tailwind CSS Architecture│ Dexie.js (Offline IndexedDB)│
+└─────────────────────────┴──────────────────────────┴─────────────────────────────┘
+```
 
 ---
 
 ### Featured Systems & Original Work
 
-#### [1. Meta Ad Analyser](https://github.com/KarthikeyaGSI/meta_ad_analyser)
-> **AI-Powered Meta Ad Intelligence & Campaign Optimization Engine**  
-> *Next.js 14 · TypeScript · Vercel AI SDK · Appwrite · Upstash Redis · Jest*  
-Full-stack analytics SaaS that ingests Meta Marketing API data, runs automated creative audits via LLM agents, executes sandboxed campaign workflows, and protects against rate-limits using distributed Redis queues.
+```
+01. meta_ad_analyser       AI-powered creative fatigue detection & Meta API optimizer
+                           [Next.js 14 · Vercel AI SDK · Appwrite · Upstash Redis · Jest]
+                           ↳ Ingests ad accounts, audits creative copy & hook retention,
+                             runs sandboxed rule workflows, and mitigates rate-limits via Redis.
+                           ↳ https://github.com/KarthikeyaGSI/meta_ad_analyser
 
-#### [2. Jarvis v1](https://github.com/KarthikeyaGSI/jarvis_v1)
-> **MarketingKo Labs — 24/7 Autonomous Local Voice Agent**  
-> *Python 3.9+ · Faster-Whisper · Local SLMs · SQLite Persistent Memory · SoundDevice*  
-Fully local, low-latency autonomous voice agent capable of continuous background listening, persistent cross-session memory recall, automated form-filling, and desktop research workflows without external cloud dependencies.
+02. jarvis_v1              MarketingKo Labs: 24/7 autonomous on-device voice co-pilot
+                           [Python 3.9+ · Faster-Whisper · SQLite Memory · Pyperclip]
+                           ↳ Zero-cloud local voice transcription with persistent episodic
+                             memory, form autofill, and desktop automation. Foundation for SancharyaAI.
+                           ↳ https://github.com/KarthikeyaGSI/jarvis_v1
 
-#### [3. SK Crown Invoice & ERP](https://github.com/KarthikeyaGSI/skcrown_invoice)
-> **Venue Booking, CRM & Financial Billing Management Platform**  
-> *Next.js 15 · TypeScript · Prisma ORM · MongoDB · Canvas Signature · HTML2PDF*  
-Production operational portal managing high-volume venue bookings, dynamic quotation pipelines, multi-party digital signature capture, automated PDF invoice rendering, and real-time Profit & Loss (P&L) telemetry.
+03. skcrown_invoice        Venue booking ERP, client contract & financial billing portal
+                           [Next.js 15 · TypeScript · Prisma ORM · MongoDB · HTML2PDF]
+                           ↳ Production system handling high-volume hall reservations, touchscreen
+                             signature capture, automated PDF invoice generation, and P&L telemetry.
+                           ↳ https://github.com/KarthikeyaGSI/skcrown_invoice
 
-#### [4. SK Crown Convention](https://github.com/KarthikeyaGSI/sk_crown_convention)
-> **Bespoke Luxury Venue Experience Platform**  
-> *Next.js 15 · Sanity Headless CMS · GSAP · Framer Motion · Tailwind CSS · On-demand ISR*  
-Cinematic, editorial web platform built for high-end convention hospitality featuring headless content delivery, GPU-accelerated GSAP scroll timelines, video preloading optimizations, and integrated WhatsApp concierge booking.
+04. sk_crown_convention   Bespoke luxury convention venue platform with on-demand ISR
+                           [Next.js 15 · Sanity Headless CMS · GSAP · WhatsApp Concierge]
+                           ↳ GPU-accelerated GSAP timelines, zero-flicker background video handling,
+                             Sanity headless content lake, and high-conversion WhatsApp funnels.
+                           ↳ https://github.com/KarthikeyaGSI/sk_crown_convention
 
-#### [5. Gates of Hell](https://github.com/KarthikeyaGSI/Gates-of-hell)
-> **B2B Sales Objection Simulator & Voice Training Suite**  
-> *React 19 · Dexie.js (Offline-first IndexedDB) · Supabase · Framer Motion · Audio Blobs*  
-Interactive objection-handling trainer enabling sales teams to simulate intense prospect resistance across pricing, trust, and timing gates with local audio recording, session retrospectives, and cloud leaderboards.
+05. Gates-of-hell          B2B sales objection simulator & high-stakes voice trainer
+                           [React 19 · Dexie.js (Offline IndexedDB) · Supabase · Audio Blobs]
+                           ↳ Interactive training HUD simulating buyer resistance across pricing,
+                             trust, and timing gates. Captures audio blobs locally; syncs team stats.
+                           ↳ https://github.com/KarthikeyaGSI/Gates-of-hell
 
-#### [6. Aureon (3D Real Estate)](https://github.com/KarthikeyaGSI/3d_realestate)
-> **Architectural 3D Real Estate Web Showcase**  
-> *Next.js 14 · Three.js / WebGL · Meshy AI 3D Models · GSAP · Tailwind CSS*  
-Interactive spatial real estate exploration experience integrating custom GLB textured architectural models, custom magnetic physics cursors, and responsive scroll choreography.
+06. 3d_realestate          Aureon: Interactive 3D spatial sky villa architectural showcase
+                           [Next.js 14 · Three.js · WebGL · Meshy AI 3D GLB · GSAP]
+                           ↳ Spatial real estate experience embedding 3D textured villa models,
+                             custom magnetic physics cursor tracking, and scroll-triggered narratives.
+                           ↳ https://github.com/KarthikeyaGSI/3d_realestate
+```
 
 ---
 
-### Open Source & Community Contributions
+### Open Source Contributions
 
-- **[Hisaab](https://github.com/KarthikeyaGSI/Hisaab)** — Contributed web accessibility and deployment runtime fixes to India's public evidence and development tracking atlas.
-- **[claude-counter](https://github.com/KarthikeyaGSI/claude-counter)** — Developed script and visual enhancements for the claude.ai token, context window, and usage monitor extension.
-- **Active Research** — Maintaining active exploration in local-first agent architectures, Model Context Protocol (MCP) integrations, and low-latency voice synthesis pipelines.
+- **[Hisaab](https://github.com/KarthikeyaGSI/Hisaab)** — Merged PR #1 addressing web accessibility and deployment resilience for India's public evidence and development tracking atlas.
+- **[claude-counter](https://github.com/KarthikeyaGSI/claude-counter)** — Developed script additions and visual counters for claude.ai token, context window, and cache tracking.
+- **Ecosystem Research** — Active exploration in Model Context Protocol (MCP) integrations, multi-agent orchestrations, and low-latency acoustic models.
 
 ---
 
-### Connect & Collaborate
-
-- **Website:** [marketingko.in](https://marketingko.in/)
-- **Voice Platform:** [sancharya.marketingko.in](https://sancharya.marketingko.in/)
-- **Twitter / X:** [@thekarthgsi](https://twitter.com/thekarthgsi)
-- **GitHub:** [@KarthikeyaGSI](https://github.com/KarthikeyaGSI)
-- **Location:** Hyderabad, India
+<p align="left">
+  <sub>Hyderabad, India &bull; Founder at <a href="https://marketingko.in/">MarketingKo</a> &bull; Connect on <a href="https://twitter.com/thekarthgsi">X (@thekarthgsi)</a></sub>
+</p>
